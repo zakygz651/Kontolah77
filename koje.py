@@ -1,6 +1,7 @@
 import requests
 import random
 import string
+import time
 
 url = 'https://www.idaind.com/7a-api/user/login'
 
@@ -63,5 +64,8 @@ def run_script():
         print(f"Response Code (Run {_+1}): {response.status_code}")
         print(f"Response Text (Run {_+1}): {response.text}")
         print("\n")
+
+        # Sleep for 0.01 seconds
+        time.sleep(0.01)
 
 run_script()
