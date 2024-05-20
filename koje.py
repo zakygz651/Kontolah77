@@ -66,6 +66,6 @@ def run_script():
         print("\n")
 
         # Sleep for 0.01 seconds
-        time.sleep(0.01)
+        time.sleep(0.00)
 
 run_script()
